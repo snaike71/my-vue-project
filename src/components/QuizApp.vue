@@ -9,7 +9,10 @@
         Commencer le Quiz
       </button>
     </div>
+<<<<<<< HEAD
     
+=======
+>>>>>>> 2494119548efd50ec9fd64b45a13fd9caa10af52
 
     <div v-else>
       <h1 class="text-2xl font-bold text-center mb-6">Quiz de Culture Générale</h1>
