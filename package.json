@@ -1,67 +1,28 @@
 {
   "name": "my-vue-project",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint",
-    "test": "vitest"
+  "version": "1.0.0",
+  "description": "## Project setup ``` npm install ```",
+  "main": "babel.config.js",
+  "directories": {
+    "test": "tests"
   },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
   "dependencies": {
-    "core-js": "^3.8.3",
-    "leaflet": "^1.9.4",
-    "leaflet-defaulticon-compatibility": "^0.1.2",
-    "my-vue-project": "file:",
-    "save-dev": "^0.0.1-security",
-    "vue": "^3.2.13",
-    "vue-class-component": "^8.0.0-0"
+    "my-vue-project": "file:"
   },
   "devDependencies": {
-    "@babel/core": "^7.12.16",
-    "@babel/eslint-parser": "^7.12.16",
     "@testing-library/vue": "^8.1.0",
-    "@types/jest": "^26.0.24",
-    "@types/leaflet": "^1.9.14",
     "@types/node": "^18.19.62",
-    "@typescript-eslint/eslint-plugin": "^5.4.0",
-    "@typescript-eslint/parser": "^5.4.0",
     "@vitejs/plugin-vue": "^5.1.4",
-    "@vue/cli-plugin-babel": "~5.0.0",
-    "@vue/cli-plugin-eslint": "~5.0.0",
-    "@vue/cli-plugin-typescript": "~5.0.0",
-    "@vue/cli-service": "~5.0.0",
-    "@vue/eslint-config-typescript": "^9.1.0",
     "@vue/test-utils": "^2.4.6",
-    "autoprefixer": "^10.4.20",
-    "eslint": "^7.32.0",
-    "eslint-plugin-vue": "^8.0.3",
-    "jest-environment-jsdom": "^29.7.0",
-    "postcss": "^8.4.47",
-    "tailwindcss": "^3.4.14",
-    "typescript": "~4.5.5",
+    "typescript": "4.8",
+    "vercel": "^37.14.0",
     "vite": "^5.4.10",
-    "vitest": "^2.1.4"
-  },
-  "eslintConfig": {
-    "root": true,
-    "env": {
-      "node": true
-    },
-    "extends": [
-      "plugin:vue/vue3-essential",
-      "eslint:recommended",
-      "@vue/typescript"
-    ],
-    "parserOptions": {
-      "parser": "@typescript-eslint/parser"
-    },
-    "rules": {}
-  },
-  "browserslist": [
-    "> 1%",
-    "last 2 versions",
-    "not dead",
-    "not ie 11"
-  ]
+    "vitest": "^2.1.4",
+    "vue": "^3.5.12"
+  }
 }
